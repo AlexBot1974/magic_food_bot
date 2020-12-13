@@ -86,7 +86,7 @@ token_to_id = pickle.load(open(filename1, 'rb'))
 
 tokens=list(token_to_id)
 
-bot=telebot.TeleBot('1442551341:AAGW2DPtlFDHQlS-d7QUfAdtXWoT7sCUnLo')
+bot=telebot.TeleBot('TOKEN_BOT_HERE')
 
 @bot.message_handler(content_types=["text"])
 def repeat_all_messages(message): # Название функции не играет никакой роли, в принципе
